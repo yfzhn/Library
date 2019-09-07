@@ -152,7 +152,7 @@ int UserInterface()
 			case 5://Quit
 				ReleaseAllBook(bookHead);
 				RealseAllBookTable(bookTableHead);
-				return;
+				return 0;
 		}
 		menu1 = UserMenu();
 	}
